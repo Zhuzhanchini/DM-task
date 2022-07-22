@@ -16,14 +16,15 @@ html, body {
 
 
 /* контейнер с панелью*/
-.topnavigation {
+.top-navigation {
     background-color: rgb(46, 74, 87);
     overflow: hidden;
     font-family: Arial;
+    display: flex;
 }
 
 /*ссылки на панели*/
-.topnavigation a {
+.top-navigation a {
     float: left;
     color: #f2f2f2;
     text-align: center;
@@ -32,12 +33,12 @@ html, body {
     font-size: 16px;
 }
 
-.topnavigation a:hover {
+.top-navigation a:hover {
     background-color: #ddd;
     color: black;
 }
 
-.topnavigation a.active {
+.top-navigation a.active {
     background-color: #adcbdf;
     color: white;
 }
@@ -51,13 +52,11 @@ html, body {
     
   }
   
-  /* Контейнер <div> - необходим для размещения выпадающего содержимого */
   .dropdown {
     float: left;
     overflow: hidden;
   }
   
-  /* Выпадающее содержимое (скрыто по умолчанию) */
   .dropdown-content {
     display: none;
     position: absolute;
@@ -68,7 +67,6 @@ html, body {
 
   }
   
-  /* Ссылки внутри выпадающего списка */
   .dropdown-content a {
     color: black;
     padding: 12px 16px;
@@ -77,18 +75,11 @@ html, body {
     float: none;
     
   }
-  
-  /* Изменение цвета выпадающих ссылок при наведении курсора */
+    
   .dropdown-content a:hover {background-color: #ddd;}
   
-  /* Показать выпадающее меню при наведении курсора */
-  .dropdown:hover .dropdown-content {display: block;}
+   .dropdown:hover .dropdown-content {display: block;}
   
-  /* Изменение цвета фона кнопки раскрывающегося списка при отображении содержимого раскрывающегося списка */
-  .dropdown:hover .dropbtn {
+   .dropdown:hover .dropbtn {
     background-color: #ddd;
     color: black;;}
-
-    .slider{
-
-    }
