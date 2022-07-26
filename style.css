@@ -4,23 +4,21 @@ html, body {
 }
 
 html {
+  font-family: Arial;
   font-size: 10px;
   background-color: rgb(238, 246, 248);
 }
 
-body {
+body, main {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 10px;
-  padding-right: 10px;
 }
 
 /* контейнер с панелью */
 .top-navigation {
   background-color: #badaef;
   overflow: hidden;
-  font-family: Arial;
   display: flex;
 }
 
@@ -83,19 +81,15 @@ body {
   color: black;;}
 
 .slider{
-  max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  display: flex;
-  flex-wrap: wrap;
-  align-content: space-between;
+  display: block;
   height: 440px;
   background-color:rgb(35, 63, 77);
   color: white;
 }
 
 .slide{
-  max-width: 1100px;
   max-height: 355px;
   margin-left: auto;
   margin-right: auto;
@@ -118,7 +112,6 @@ body {
     width: auto;
 }
 
-
 .monitor{
   position:relative;
   width: 350px;
@@ -134,25 +127,66 @@ body {
 }
 
 .screen-pic{
-width: 334px;
-padding: 10px 10px 10px 10px;
-height: 211px;
+  width: 334px;
+  padding: 10px 10px 10px 10px;
+  height: 211px;
 }
 
 .slider-navigation {
   max-width: 1100px;
   margin-left: auto;
   margin-right: auto;
-  
-  }
+}
 
+/*как блятб отцентровать*/
 .slider-navigation article {
   font-size: small;
   display: inline-block;
-  
-   }
+ }
 
 .slider-navigation h1{
   font-size: large;
 }
 
+.slider-navigation article:hover {
+  background-color: #ddd;
+  color: #0f1622;
+}
+
+.main-article{
+  max-height: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: small;
+}
+
+.main-article-image{
+  float: right;
+  height: 50%;
+  width: 50%;
+  padding-left: 1%;
+  padding-bottom: 1%;
+}
+
+.main-article h1{
+  font-size: large;
+  color: rgb(98, 98, 98);
+}
+
+.arch-confrm-links{
+  margin-left: auto;
+  margin-right: auto;
+  float: right;
+  font-size: small;
+  color: rgb(98, 98, 98);
+}
+
+.arch-confrm-links a{
+  color: rgb(98, 98, 98);
+}
+
+.news-panel{
+  
+  margin-left: auto;
+  margin-right: auto;
+}
