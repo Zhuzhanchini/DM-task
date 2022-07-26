@@ -14,8 +14,7 @@ body {
   margin: 0 auto;
 }
 
-
-/* контейнер с панелью rgb(46, 74, 87)*/
+/* контейнер с панелью */
 .top-navigation {
   background-color: #badaef;
   overflow: hidden;
@@ -49,7 +48,6 @@ body {
   padding: 16px;
   font-size: 16px;
   border: none;
-  
 }
   
 .dropdown {
@@ -64,7 +62,6 @@ body {
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
-
 }
 
 .dropdown-content a {
@@ -73,20 +70,90 @@ body {
   text-decoration: none;
   display: block;
   float: none;
-  
 }
   
 .dropdown-content a:hover {background-color: #ddd;}
 
-  .dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropdown-content {display: block;}
 
-  .dropdown:hover .dropbtn {
+.dropdown:hover .dropbtn {
   background-color: #ddd;
   color: black;;}
 
-.slide{
-  width: 100%;
-  
+.slider{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  height: 460px;
+  background-color:rgb(35, 63, 77);
+  color: white;
 }
 
+.slide{
+  display: flex;
+  align-items: center;
+  height: 80%;
+  background-color:rgb(35, 63, 77);
+  color: white;
+  margin: 10px 70px 10px 70px;
+}
+
+.slide section{
+  font-size: small;
+}
+
+.slide section a{
+  font-size: small;
+  color: white;
+}
+
+
+.slide section button {
+    line-height: 1.5;
+    width: auto;
+}
+
+
+.monitor{
+  position:relative;
+  width: 350px;
+  height: 315px;
+  margin: 20px 20px 20px 20px;
+}
+
+.monitor-edges{
+  position: absolute;
+  top: 0; 
+  left: 0;
+  z-index: 1;
+}
+
+.screen-pic{
+width: 334px;
+padding: 10px 10px 10px 10px;
+height: 211px;
+}
+
+.slider-navigation {
+  height: 20%;
+  position: absolute;
+  bottom: 0px;
+  margin: 10px 70px 10px 70px;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 10px;
+  column-gap: 2em;
+  
+}
+.slider-navigation > * {
+  flex: 1;
+}
+
+.slider-navigation article {
+  font-size: small;
+   }
+
+.slider-navigation h1{
+  font-size: large;
+}
 
