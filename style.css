@@ -9,9 +9,11 @@ html {
 }
 
 body {
-  width: 100%;
   max-width: 1200px;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 /* контейнер с панелью */
@@ -81,22 +83,26 @@ body {
   color: black;;}
 
 .slider{
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
   display: flex;
   flex-wrap: wrap;
   align-content: space-between;
-  height: 460px;
+  height: 440px;
   background-color:rgb(35, 63, 77);
   color: white;
 }
 
 .slide{
+  max-width: 1100px;
+  max-height: 355px;
+  margin-left: auto;
+  margin-right: auto;
   display: flex;
   align-items: center;
-  height: 80%;
-  background-color:rgb(35, 63, 77);
   color: white;
-  margin: 10px 70px 10px 70px;
-}
+  }
 
 .slide section{
   font-size: small;
@@ -106,7 +112,6 @@ body {
   font-size: small;
   color: white;
 }
-
 
 .slide section button {
     line-height: 1.5;
@@ -135,22 +140,16 @@ height: 211px;
 }
 
 .slider-navigation {
-  height: 20%;
-  position: absolute;
-  bottom: 0px;
-  margin: 10px 70px 10px 70px;
-  display: flex;
-  flex-wrap: wrap;
-  row-gap: 10px;
-  column-gap: 2em;
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
   
-}
-.slider-navigation > * {
-  flex: 1;
-}
+  }
 
 .slider-navigation article {
   font-size: small;
+  display: inline-block;
+  
    }
 
 .slider-navigation h1{
