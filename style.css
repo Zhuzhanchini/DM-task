@@ -136,12 +136,14 @@ body, main {
   max-width: 1100px;
   margin-left: auto;
   margin-right: auto;
+  display: flex;
+  justify-content: center;
 }
 
-/*как блятб отцентровать*/
 .slider-navigation article {
   font-size: small;
   display: inline-block;
+
  }
 
 .slider-navigation h1{
