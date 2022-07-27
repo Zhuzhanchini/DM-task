@@ -5,7 +5,6 @@ html, body {
 
 html {
   font-family: Arial;
-  font-size: 10px;
   background-color: rgb(238, 246, 248);
 }
 
@@ -160,17 +159,28 @@ body, main {
   margin-left: auto;
   margin-right: auto;
   font-size: small;
-}
+  display: inline-block;
+  justify-content: center;
+  }
 
-.main-article-image{
-  float: right;
-  height: 50%;
+.main-article-img-cont{
+  margin: 10px 10px 10px 10px;
+  height: 400px;
   width: 50%;
-  padding-left: 1%;
-  padding-bottom: 1%;
+  overflow: hidden;
+  float: right;
+  
 }
 
-.main-article h1{
+.main-article-img-cont img{
+  width: 100%;  
+  height: 100%;
+  object-position: center;
+}
+
+
+
+.main-article h2{
   font-size: large;
   color: rgb(98, 98, 98);
 }
@@ -178,10 +188,11 @@ body, main {
 .arch-confrm-links{
   margin-left: auto;
   margin-right: auto;
-  float: right;
   font-size: small;
   color: rgb(98, 98, 98);
+  float: right;
 }
+
 
 .arch-confrm-links a{
   color: rgb(98, 98, 98);
