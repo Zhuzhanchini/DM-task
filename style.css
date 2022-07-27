@@ -169,16 +169,13 @@ body, main {
   width: 50%;
   overflow: hidden;
   float: right;
-  
-}
+ }
 
 .main-article-img-cont img{
   width: 100%;  
   height: 100%;
   object-position: center;
 }
-
-
 
 .main-article h2{
   font-size: large;
@@ -192,7 +189,6 @@ body, main {
   color: rgb(98, 98, 98);
   float: right;
 }
-
 
 .arch-confrm-links a{
   color: rgb(98, 98, 98);
