@@ -136,7 +136,7 @@ body, main {
   margin-left: auto;
   margin-right: auto;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .slider-navigation article {
@@ -156,15 +156,13 @@ body, main {
 
 .main-article{
   max-height: fit-content;
-  margin-left: auto;
-  margin-right: auto;
   font-size: small;
   display: inline-block;
-  justify-content: center;
-  }
+  
+}
 
 .main-article-img-cont{
-  margin: 7px 7px 7px 7px;
+  margin: 7px 7px 7px 0px;
   height: 400px;
   width: 50%;
   overflow: hidden;
@@ -183,19 +181,75 @@ body, main {
 }
 
 .arch-confrm-links{
-  margin-left: auto;
-  margin-right: auto;
-  font-size: small;
-  color: rgb(98, 98, 98);
+  margin-right: 10px;
+  margin-bottom: 10px;
   float: right;
 }
 
 .arch-confrm-links a{
+  font-size: small;
   color: rgb(98, 98, 98);
 }
 
 .news-panel{
-  
   margin-left: auto;
   margin-right: auto;
 }
+
+.news-panel h2{
+  font-size: large;
+  color: rgb(98, 98, 98);
+}
+
+.news-panel-box{
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.news-panel-box article{
+  font-size: small;
+  color: rgb(98, 98, 98);
+  display: inline-block;
+  width: 33%;
+}
+
+.news-panel-box a{
+  font-size: small;
+  color: rgb(98, 98, 98);
+}
+
+.news-panel-box p{
+  padding-right: 20px;
+}
+
+.partners-panel{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.partners-panel article{
+  max-width: 90px;
+  max-height: 90px;
+  border: 1px rgb(199, 197, 197) solid;
+  
+}
+
+.partners-panel article img{
+  width:90%;
+  height: 90%;
+  margin: 5px 5px 5px 5px;
+  object-position: center;
+}
+
+.partners-panel :hover{
+  background-color: rgb(139, 228, 139);
+}
+
+
+
+
